@@ -27,7 +27,8 @@ fun LoginPage() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .wrapContentSize(),
+            .wrapContentSize()
+            .padding(28.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Box(
